@@ -1,11 +1,14 @@
 ## the only input is ./data/text8
 
-##python create_cooccurance.py 
+## preprocess
+python create_cooccurance.py 
 
 ### IMF
-##python IMF.py
+python IMF.py
 
-### online IMF
+
+### online IMF: split the vocabulary into 10 parts. 
+### compute the performance on word_analogy task for 10 times. 
 num_word=`wc -l data/dictionary | awk '{print $1}'`
 split_num=10
 for ((i=0; i<$split_num; i++)); 
