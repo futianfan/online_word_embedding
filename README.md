@@ -1,1 +1,2 @@
-electronic recording
+online word embedding project
+
